@@ -5,49 +5,102 @@
         <title>About Me</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
         <link href="aboutme.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
 
     <body>
+<!--************************** Navigation Bar *****************************-->
         <header class="header__main">
             <nav class="header__nav">
-                <ul class="header__list">
-                    <li><span>About Me</span></li>
-                    <li><a href="panini.html" class="nav-link">Panini</a></li>
-                    <li><a href="vacation-photos.html" class="nav-link">Vacation Photos</a></li>
-                    <li><a href="videos.html" class="nav-link">Videos</a></li>
-                    <li><a href="contact-info.html" class="nav-link">Contact Info</a></li>
-                </ul>
+
+                <div class="header_div">
+                    <i class="fas fa-home"></i>
+                    <a href="home.html" class="nav-link">HOME</a>
+                </div>
+
+                <div class="header_div">
+                    <i class="fas fa-file"></i>
+                    <a href="resume.html" class="nav-link">RESUME</a>
+                </div> 
+
+                <div class="header_div">
+                    <i class="fas fa-object-ungroup"></i>
+                    <a href="services.html" class="nav-link">SERVICES</a>
+                </div>
+
+                <div class="header_div">
+                    <i class="fas fa-book-open"></i>
+                    <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+                </div>
+
+                <div class="header_div">
+                <i class="fas fa-blog"></i>
+                <a href="blog.html" class="nav-link">BLOG</a>
+                </div>
+
+                <div class="header_div">
+                    <i class="fas fa-address-card"></i>
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+                </div>
             </nav>
         </header>
+<!--************************** Navigation Bar *****************************-->
 
-        <main class="body-content">
-            <article>
+
+<main class="main-content">
+<!--************************** Main Article *******************************-->
+            <article class="main-article">
                 <div class="left-body">
-                    <p>Hello world! Welcome to my first website!</p>
-                        <ul class="left-box">
-                            <li>web developer</li>
-                            <li>soccer fan</li>
-                        </ul>
+                    <p class="main_name">IGOR POPENOV</p>
+                        <span class="left-box">
+                            <p class="passion_list">web developer </p>
+                            <p class="passion_list">hockey fan</p>
+                            <p class="passion_list">mountain biker</p>
+                            <p class="passion_list">dog father</p>
+                        </span>
                 </div>
-
 
                 <div class="middle-body">
-                    <p>Hello, my name is Igor and I am a web developer.  I am currently attending digital crafts web development bootcamp in buckhead.  Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer. 
+                    <p>
+                        Hello, my name is Igor and I am a web developer.  I am currently attending digital crafts web development bootcamp in buckhead.  Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer. 
                     </p>
                 </div>
-                
+
                 <div class="right-body">
-                    <figure class="right-image">
+                    <p>
+                        Hello, my name is Igor and I am a web developer.  I am currently attending digital crafts web development bootcamp in buckhead.  Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer. 
+                    </p>
+                </div>
+            </article>
+<!--************************** Main Article *******************************-->
+
+<!--************************** Picture Article ****************************-->
+
+            <article class="picture_article">
+                <div class="picture_div">
+                    <figure class="left_figure">
                         <img src="images/mtb.jpeg">
                     </figure>
                 </div>
+
+                <div class="picture_div">
+                    <figure class="center_figure">
+                        <img src="images/becca.jpg">
+                    </figure>
+                </div>
+
+                <div class="picture_div">
+                    <figure class="right_figure">
+                        <img src="images/panini.jpeg">
+                    </figure>
+                </div>
+
             </article>
         </main>
-
-        <footer class="footer"> 
-            <p>If you need to find me you can cash me outside or contact me at <a href="contact-info.html" class="nav-link"> Contact Info. </a></p>
-        </footer>
+<!--************************** Picture Article ****************************-->
+        
 
     </body>
+
     
 </html>
