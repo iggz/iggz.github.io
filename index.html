@@ -1,106 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <title>About Me</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-        <link href="aboutme.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="aboutme.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     </head>
-
     <body>
-<!--************************** Navigation Bar *****************************-->
-        <header class="header__main">
-            <nav class="header__nav">
-
-                <div class="header_div">
-                    <i class="fas fa-home"></i>
-                    <a href="home.html" class="nav-link">HOME</a>
+        <main>
+            <header>
+                <h1 class="firstname">Igor</h1>
+                <h1 class="lastname">Popenov</h1>
+                <div class="subtitle">
+                    <h2 class="firstsub">Web Developer /</h2>
+                    <h2 class="secondsub">Mountain biking enthusiast</h2>
                 </div>
-
-                <div class="header_div">
-                    <i class="fas fa-file"></i>
-                    <a href="resume.html" class="nav-link">RESUME</a>
-                </div> 
-
-                <div class="header_div">
-                    <i class="fas fa-object-ungroup"></i>
-                    <a href="services.html" class="nav-link">SERVICES</a>
+                <div class="social--links">
+                    <a class="far fa-envelope" href="mailto:ipopenov@protonmail.com"></a>
+                    <a class="fab fa-github" href="https://github.com/iggz"></a>
+                    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/igor-popenov-90657920/"></a>
+                    <a class="fas fa-blog" href="https://www.linkedin.com/in/igor-popenov-90657920/"></a>
                 </div>
-
-                <div class="header_div">
-                    <i class="fas fa-book-open"></i>
-                    <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-                </div>
-
-                <div class="header_div">
-                <i class="fas fa-blog"></i>
-                <a href="blog.html" class="nav-link">BLOG</a>
-                </div>
-
-                <div class="header_div">
-                    <i class="fas fa-address-card"></i>
-                    <a href="contact.html" class="nav-link">CONTACT</a>
-                </div>
-            </nav>
-        </header>
-<!--************************** Navigation Bar *****************************-->
-
-
-<main class="main-content">
-<!--************************** Main Article *******************************-->
-            <article class="main-article">
-                <div class="left-body">
-                    <p class="main_name">IGOR POPENOV</p>
-                        <span class="left-box">
-                            <p class="passion_list">web developer </p>
-                            <p class="passion_list">hockey fan</p>
-                            <p class="passion_list">mountain biker</p>
-                            <p class="passion_list">dog father</p>
-                        </span>
-                </div>
-
-                <div class="middle-body">
-                    <p>
-                        Hello, my name is Igor and I am a web developer.  I am currently attending digital crafts web development bootcamp in buckhead.  Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer. 
-                    </p>
-                </div>
-
-                <div class="right-body">
-                    <p>
-                        Hello, my name is Igor and I am a web developer.  I am currently attending digital crafts web development bootcamp in buckhead.  Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer. 
-                    </p>
-                </div>
-            </article>
-<!--************************** Main Article *******************************-->
-
-<!--************************** Picture Article ****************************-->
-
-            <article class="picture_article">
-                <div class="picture_div">
-                    <figure class="left_figure">
-                        <img src="images/mtb.jpeg">
-                    </figure>
-                </div>
-
-                <div class="picture_div">
-                    <figure class="center_figure">
-                        <img src="images/becca.jpg">
-                    </figure>
-                </div>
-
-                <div class="picture_div">
-                    <figure class="right_figure">
-                        <img src="images/panini.jpeg">
-                    </figure>
-                </div>
-
-            </article>
+            </header>
+            <div class="scroll--notif">
+                <a href="#infobox" class="fas fa-chevron-down"></a>
+            </div>
+            <div id="infobox" class="info">
+                <h3>Hello, my name is Igor and I am a web developer in Atlanta, Georgia.</h3>
+                <p>I grew up in Atlanta, and graduated from Georgia State with a degree in Accounting. I am currently attending digital crafts web development bootcamp in buckhead.</p>
+                <p>Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer.</p>
+                <img class = "picture" src="images/mtb.jpeg"/>
+            </div>
         </main>
-<!--************************** Picture Article ****************************-->
-        
-
     </body>
-
-    
 </html>
