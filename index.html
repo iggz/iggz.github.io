@@ -1,39 +1,92 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <title>About Me</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="aboutme.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-    </head>
-    <body>
-        <main>
-            <header>
-                <h1 class="firstname">Igor</h1>
-                <h1 class="lastname">Popenov</h1>
-                <div class="subtitle">
-                    <h2 class="firstsub">Web Developer /</h2>
-                    <h2 class="secondsub">Mountain biking enthusiast</h2>
-                </div>
-                <div class="social--links">
-                    <a class="far fa-envelope" href="mailto:ipopenov@protonmail.com"></a>
-                    <a class="fab fa-github" href="https://github.com/iggz"></a>
-                    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/igor-popenov-90657920/"></a>
-                    <a class="fas fa-blog" href="https://www.linkedin.com/in/igor-popenov-90657920/"></a>
-                </div>
-            </header>
-            <div class="scroll--notif">
-                <a href="#infobox" class="fas fa-chevron-down"></a>
+
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="firstname">Igor</h1>
+            <h1 class="lastname">Popenov</h1>
+            <div class="subtitle">
+                <h2 class="firstsub">Web Developer /</h2>
+                <h2 class="secondsub">Mountain biking enthusiast</h2>
             </div>
-            <div id="infobox" class="info">
-                <h3>Hello, my name is Igor and I am a web developer in Atlanta, Georgia.</h3>
-                <p>I grew up in Atlanta, and graduated from Georgia State with a degree in Accounting. I am currently attending digital crafts web development bootcamp in buckhead.</p>
-                <p>Some of my hobbies include hanging out with Panini, the coolest puppy in the whole world.  I also enjoy mountain biking and playing pick up soccer.</p>
-                <img class = "picture" src="images/mtb.jpeg"/>
+            <div class="social--links">
+                <a class="far fa-envelope" href="mailto:ipopenov@protonmail.com"></a>
+                <a class="fab fa-github" href="https://github.com/iggz"></a>
+                <a class="fab fa-linkedin" href="https://www.linkedin.com/in/igor-popenov-90657920/"></a>
+                <a class="fas fa-blog" href="https://www.linkedin.com/in/igor-popenov-90657920/"></a>
             </div>
-        </main>
-    </body>
+        </header>
+        <div class="scroll--notif">
+            <a href="#infobox" class="fas fa-chevron-down"></a>
+        </div>
+        <div id="infobox" class="aboutMe">
+            <h3>Hello, my name is Igor and I am a web developer in Atlanta, Georgia.</h3>
+            <p>I am from Atlanta, GA and I am currently attending the DigitalCrafts Immersive Web Development bootcamp.
+            </p>
+            <p>DigitalCrafts is a top-rated coding bootcamp teaching the fundamentals of programming through an
+                intensive classroom experience, transforming beginners into full-stack software engineers with
+                cutting-edge skill sets.
+            </p>
+            <p>I am currently enrolled in the Immersive Web Development course that covers Python, HTML, CSS and
+                JavaScript, including an emphasis on cutting-edge frameworks like React/Redux and server side
+                technologies including Node.js, Express, and PostgreSQL. </p>
+            <p> In my freetime I enjoy mountain biking and playing soccer.</p>
+            <div class="projects">
+                <h2>Projects:</h2>
+                <h3 class="project-header">DigitalCrafts Project Database
+                    <a class="fab fa-github project-info-link" href="https://github.com/iggz/DCPD" target="_blank"></a>
+                    <a class="fas fa-external-link-alt project-info-link"
+                        href="http://ec2-18-224-8-223.us-east-2.compute.amazonaws.com/" target="_blank"></a>
+                </h3>
+                <p>The DigitalCrafts Project Database is a full-stack project for DigitalCrafts built with Node,
+                    Express, PostgreSQL, HTML, CSS, Javascript, and ES6 Renderer. It was built with a team of 3 over the
+                    course of 3 days in class. We built the DCPD to be a solution to a problem that many bootcamp
+                    students have: finding inspiration (or help) when building projects. Any DigitalCrafts student or
+                    alumni can submit a project to the database (via Slack authentication), and the database is viewable
+                    to everyone. </p>
+                <img class="image" src="images/DCPD_Screenshot.png" />
+
+                <h3 class="project-header">CryptoLogic
+                    <a class="fab fa-github project-info-link" href="https://github.com/iggz/Crypto"
+                        target="_blank"></a>
+
+                </h3>
+                <p>CrytpoLogic is a front-end only application written in vanilla Javascript that utilizes APIs to bring
+                    together the multitudinous
+                    array of cryptocurrencies under a single domain. The application itself is essentially a dashboard,
+                    displaying surface-level information on each currency in real time, sorted by market capitalization.
+                    If any particular coin is clicked, a graphical representation of the prior week’s price change is
+                    rendered. The overall goal of the site is to provide the user with the necessary tools to make an
+                    informed decision regarding their cryptocurrency assets.</p>
+                <img class="image" src="images/CryptoLogic.gif" />
+
+                <h3>Spaghetti Man
+                    <a class="fab fa-github project-info-link" href="https://github.com/iggz/Crypto"
+                        target="_blank"></a>
+                </h3>
+                <p>Spaghetti Man is a game written in Python 3 using pygame (the library), which is a Free and Open
+                    Source python programming language library for making multimedia applications like games built on
+                    top of the excellent SDL (Simple DirectMedia Layer) library. In my game, the main character named
+                    Spaghetti Man is able to move around on the sceen and throw meatballs at his enemies in order to
+                    neutralize them. The enemies include zombies that run and walk, flying pizza cats, and
+                    tiny missiles, all of which cause damage to him when they collide.
+                </p>
+                <img class="image" src="images/Spaghetti Man.gif" />
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>

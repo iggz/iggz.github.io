@@ -95,7 +95,7 @@ animation: bounce-top 1.5s 1.5s ease-out both;
   text-decoration: none;
 }
 
-.info {
+.aboutMe {
   background-color: rgb(233,233,233);
   box-shadow: 0px -10px 10px rgb(233,233,233);
   font-size: 1rem;
@@ -108,15 +108,27 @@ animation: bounce-top 1.5s 1.5s ease-out both;
   z-index: 1;
 }
 
-.info p {
+.aboutMe p {
   line-height: 1.3rem;
 }
+
+.image {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
 
 .picture {
   border-radius: 8px;
   margin-left: 5%;
   margin-top: 2rem;
   width: 90%;
+}
+
+.project-header {
+  margin-bottom: .2rem;
 }
 
 a[ id= "scroll" ]:target ~ #main article.panel {
@@ -140,7 +152,7 @@ a[ id= "scroll" ]:target ~ #main article.panel {
       font-size: 1.618rem;
   }
 
-  .info {
+  .aboutMe {
       left: 10%;
       /* width: 26rem; */
       /* right: 30%; */
